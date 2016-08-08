@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+ <head>
+  <title>QuentinC. | Home </title>
+<link rel="icon" type"image-ico" href="favicon (2).ico">
+<link href='https://fonts.googleapis.com/css?family=Fascinate' rel='stylesheet' type='text/css'>
+<style>
+
+body{
+background-image:url("https://static.pexels.com/photos/24618/pexels-photo.jpg");
+background-size:100%;
+background-size:100%;
+height: 90px;
+background-repeat: no-repeat;
+color: white;
+ margin:10;
+ text-align: center;
+font-family: ;
+}
+h1{
+ font-family: 'Fascinate', cursive;
+}
+
+ header{
+ background-color:	; 
+ text-align: center;
+ 
+ }
+ 
+ footer{
+   margin-top:43px;
+   background-color:black;
+   color: white;
+   padding:26px;
+   
+   #intro{ background-color: rgba (255, 255, 0.63);
+   height: 155px;
+   padding: 57px;
+ }
+
+ 
+ 
+</style>
+ </head>
+ <body>
+  <header>
+   <nav>
+    <a href="index.html">Home</a> / <a href="About.html">About</a>  / <a href="work.html">Work</a> / <a href="Contact.html">Contact</a> 
+    </nav>
+   
+<img src="logo.png">
+  <h1> Quentin Coffy,"The Graphic Designer" </h1>
+   
+   <h2></h2>
+
+<p> .<br>
+</header>
+
+
+
+<footer>
+
+Copyright Quentin Coffy
+ 
+</footer>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<html>
+ <head>
+  <title>QuentinC. | Price </title>
+<link rel="icon" type"image-ico" href="favicon (2).ico">
+<link href='https://fonts.googleapis.com/css?family=Fascinate' rel='stylesheet' type='text/css'>
+<style>
+
+body{
+background-image:url("https://static.pexels.com/photos/24618/pexels-photo.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+ margin:0;
+ text-align: center;
+font-family:arial;sans-serif ;
+}
+h1{
+ font-family: 'Fascinate', cursive;
+}
+
+ header{
+ background-color:	; 
+ text-align: center;
+ 
+ }
+ 
+ footer{
+   margin-top:43px;
+   background-color:black;
+   color: white;
+   padding:26px;
+   icon:100px;
+   
+   #intro{ background-color: rgba (255, 255, 0.63);
+   height: 155px;
+   padding: 57px;
+ }
+
+body{
+  font-family: sans-serif;
+}
+table{
+  border: /1px solid lightgray;
+  }
+td{
+  border: /1px solid lightblue;
+  text-align: center;
+  padding: 8px;
+}
+.features td{
+  text-align: left;
+  
+}
+
+.prices{
+  font-size:20px;
+  color: blue;
+}
+
+
+tr:hover{
+  background-color: lightblue;
+}
+
+.order{
+  font-size: 15px;
+  background-color: lightgray
+ }
+a{
+  color: blue;
+}
+.basic{
+  font-size: 30px;
+    color: lightgray;
+}
+.premium{
+  font-size: 30px;
+  color: darkgray
+}
+.supreme{
+  font-size: 30px;
+  color: gray;
+}
+
+
+
+ 
+ 
+</style>
+ </head>
+ <body>
+  <header>
+   <nav>
+     <a href="index.html">Home</a> / <a href="About.html">About</a>  / <a href="work.html">Work</a> / <a href="Contact.html">Contact</a> 
+    / <a href="Prices.html">Prices</a> </nav>
+   
+<img src="logo.png">
+  <h1> "Prices" </h1>
+   
+</header>
+
+<p>
+<h1> Pricing</h1>
+<table> 
+  <tr> 
+    <td> <img src=http://www.travelguru.com/travel-blog/wp-content/uploads/Travel-Apps.jpg  width= 200px/>
+    
+    </td>
+    <td> <img src=http://www.travelguru.com/travel-blog/wp-content/uploads/Travel-Apps.jpg  width= 200px/>
+    
+    </td><td> <img src=http://www.travelguru.com/travel-blog/wp-content/uploads/Travel-Apps.jpg  width= 200px/>
+    </td>
+  <tr>
+    <td class="basic">Basic</td>
+  <td class="premium">Premium</td>
+ <td class="supreme">Supreme</td>
+  <tr class= "prices">
+  <td>$99</td>
+  <td>$100</td>
+  <td>$200</td>
+  </tr>
+  <tr class= "features">
+    <td> 
+      <ul>
+        <li> 3 Design Drafts
+        <li> 1 Revision
+        <li> 1 WeekTurnaround
+        </li>
+      </ul>  
+      <td>
+      <ul>
+        <li>10 Design Drafts
+        <li>4 Revision
+        <li>4 WeekTurnaround
+        </li>
+      </ul>  
+    <td>
+      <ul>
+        <li> 18Design Drafts
+        <li> 8 Revision
+        <li> 8 WeekTurnaround
+        </li>
+      </ul>
+    <tr class= "order">
+      <td><a href="contact.html">Order Now</a></td>
+      <td><a href="contact.html">Order Now</a></td>
+      <td><a href="contact.html">Order Now</a></td>
+  </tr>
+  </td>
+</table>
+</p>
+
+<footer>
+<a href="https://www.instagram.com/coffyquentin/" target="_blank"><img src="insta.png" style="width:60px;height:60px;"></a>
+
+<a href="https://www.facebook.com/quentin.coffy.9" target="_blank"><img src="face.png" style="width:60px;height:60px;"></a>
+
+<a href="https://www.linkedin.com/in/quentin-coffy-58b8a2125" target="_blank"><img src="linkeldn.png" style="width:60px;height:60px;"></a>
+ &copy; Quentin Coffy
+ </footer>
+</body>
+</html>

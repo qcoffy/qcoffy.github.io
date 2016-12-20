@@ -1,107 +1,917 @@
 <!doctype html>
 <html>
- <head>
- <meta name="viewport" content="width=device-width, initial-scale=1">	
-  <title>QuentinC. | Home </title>
-<link rel="icon" type"image-ico" href="favicon (2).ico">
-<link href='https://fonts.googleapis.com/css?family=Fascinate' rel='stylesheet' type='text/css'>
+ <!-- Header Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+<head>
+ 
+<header id="header" >
+<div class="main_nav">
+<div class="container">
+
+
+</div>
+</div>
+<div class="title">
+
+<div><span></span></div>
+<div class="smallsep heading"></div>
+
+<h1 class="heading"> QUENTIN </h1>
+<h2 class="heading"> COFFY </h2>
+
+	
 <style>
+	@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
 
-body{
-background-image:url("https://static.pexels.com/photos/24618/pexels-photo.jpg");
- background-size: cover;
-background-repeat: no-repeat;
-color: white;
- margin:0;
- text-align: center;
-font-family:arial;sans-serif ;
-font-size: 16pt;
+/* Base Styles
+********************************************************************* */
+html {
+	font-size: 55.5%;
 }
-h1{
- font-family: 'Fascinate', cursive;
-}
-
-}
- header{
-
- text-align: center;
- 
- }
- 
- }
-#video{
-  height:200px ;
-  width: 100%;
- overflow: hidden;
+body {
+	font-size: 1.5em;
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #222;
 }
 
-#video img{
-  position: absolute;
+
+/* Grid
+********************************************************************* */  
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.column, .columns {
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+
+
+/* Typography
+********************************************************************* */
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: 2rem;
+	font-weight: 300;
+}
+h1 {
+	font-size: 4.0rem;
+	line-height: 1.2;
+	letter-spacing: -.1rem;
+}
+h2 {
+	font-size: 3.6rem;
+	line-height: 1.25;
+	letter-spacing: -.1rem;
+}
+h3 {
+	font-size: 3.0rem;
+	line-height: 1.3;
+	letter-spacing: -.1rem;
+}
+h4 {
+	font-size: 2.4rem;
+	line-height: 1.35;
+	letter-spacing: -.08rem;
+}
+h5 {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	letter-spacing: -.05rem;
+}
+h6 {
+	font-size: 1.5rem;
+	line-height: 1.6;
+	letter-spacing: 0;
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+h1 {
+	font-size: 5.0rem;
+}
+h2 {
+	font-size: 4.2rem;
+}
+h3 {
+	font-size: 3.6rem;
+}
+h4 {
+	font-size: 3.0rem;
+}
+h5 {
+	font-size: 2.4rem;
+}
+h6 {
+	font-size: 1.5rem;
+}
+}
+p {
+	margin-top: 0;
+}
+
+
+
+
+/* Links
+********************************************************************* */
+a {
+	color: #1EAEDB;
+  font-family: 'Arial'
+  
+}
+a:hover {
+	color: #0FA0CE;
+}
+
+
+
+
+/* Header Section
+********************************************************************* */
+
+
+header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+  
+ width: 100%%;
+	height: 100vh;
+	background:#6fe55d;
+	background: -moz-linear-gradient(-20deg, #6fe55d 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #6fe55d 0%, #5fc3e4 100%);
+	background: linear-gradient(180deg, #6fe55d0%, #5fc3e4 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+}
+.title {
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+	align-self: center;
+	padding: 2rem;
+	max-width: 960px;
+	text-align: center;
+}
+.title .smallsep {
+	background: #fff;
+	height: 2px;
+	width: 400px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+  opacity: 0.5;
+}
+.title h1 {
+	font-size: 80px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 0.85;
+	margin-bottom: 28px;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	}
+	
+.title h2 {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 50px;
+}
+
+@media only screen and (max-height: 700px) {
+.title h1 {
+	font-size: 80px;
+}
+}
+.title b {
+	max-width: 600px;
+	margin: 0 auto;
+	line-height: 150%;
+}
+
+@media only screen and (max-width: 500px) {
+.title h1 {
+	font-size: 65px;
+}
+}
+.title .icon {
+	color: #FFFFFF;
+	font-size: 50px;
+}
+.main_nav {
+	position: absolute;
+	top: 0px;
+	max-height: 200px;
+	z-index: 999;
+	width: 100%;
+	padding-top: 17px;
+	background: none;
+	overflow: hidden;
+	-webkit-transition: all 0.40s;
+	transition: all 0.3s;
+	opacity: 0;
+	top: 100px;
+	padding-bottom: 60px;
   
 }
 
-video{video {
-    width: 80%;
-    margin: auto;
- 
+@media only screen and (max-width: 766px) {
+.main_nav {
+	padding-top: 25px;
 }
-footer{
-   margin-top:43px;
-   background-color:black;
-   color: white;
-   icon:100px;
-   padding:26px;
 }
-   
-   #intro{ background-color: rgba (255, 255, 0.63);
-   height: 155px;
-   padding: 57px;
- }
+.open-nav {
+	max-height: 400px !important;
+}
+.sticky {
+	opacity: 1;
+	top: 0px;
+}
+nav {
+	width: 10%;
+	margin-top: 3px;
+}
 
- img{
-width:100%;
-margin: auto;
- }
- 	
- }
+@media only screen and (max-width: 766px) {
+nav {
+	width: 100%;
+}
+}
+nav ul {
+	list-style: none;
+	overflow: visible;
+	text-align: center;
+  
+}
+
+@media only screen and (max-width: 766px) {
+nav ul {
+	padding-top: 0px;
+	margin-bottom: 22px;
+	text-align: center;
+	width: 100%;
+}
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 85px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 766px) {
+nav ul li {
+	width: 100%;
+	padding: 7px 0;
+	margin: 0;
+}
+nav ul li:first-child {
+	margin-top: 70px;
+}
+}
+nav ul a {
+	text-transform: uppercase;
+	font-size: 14px;
+	text-decoration: none;
+}
+nav ul a:hover {
+	color: #FFF;
+}
+.mobile-toggle {
+	display: none;
+	cursor: pointer;
+	font-size: 20px;
+	position: absolute;
+	right: 22px;
+	top: 0;
+	width: 30px;
+}
+
+@media only screen and (max-width: 766px) {
+.mobile-toggle {
+	display: block;
+}
+}
+.mobile-toggle span {
+	width: 30px;
+	height: 4px;
+	margin-bottom: 6px;
+	background: #000000;
+	display: block;
+}
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 5vh;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0;
+	width: 13px;
+	height: 13px;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	z-index: 9;
+	-webkit-transform: translate(-50%, 0%) rotate(45deg);
+	-moz-transform: translate(-50%, 0%) rotate(45deg);
+	transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 2s ease-in-out infinite;
+	-moz-animation: fade_move_down 2s ease-in-out infinite;
+	animation: fade_move_down 2s ease-in-out infinite;
+}
+
+/* About Section
+********************************************************************* */
+
+#about {
+	padding: 100px 0 50px 0;
+}
+
+
+/* Skills Section
+********************************************************************* */
+#skills {
+	padding: 100px 0 100px 0;
+	background-color: #F5F5F5;
+}
+.progressBar {
+	margin-bottom: 26px;
+	margin-bottom: 1.66em;
+  
+}
+.progressBar h4 {
+	font-size: 16px;
+	text-transform: none;
+	margin-bottom: 7px;
+	margin-bottom: .33em;
+}
+.progressBarContainer {
+	width: 100%;
+	height: 8px;
+	background: #E1E1E1;
+	overflow: hidden;
+  
+}
+.progressBarValue {
+	height: 8px;
+	float: left;
+	background: -moz-linear-gradient(-20deg, #6fe55d 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #6fe55d 0%, #5fc3e4 100%);
+	background: linear-gradient(180deg, #6fe55d0%, #5fc3e4 100%);
+  
+}
+.value-00 {
+	width: 0;
+}
+.value-10 {
+	width: 10%;
+}
+.value-20 {
+	width: 20%;
+}
+.value-30 {
+	width: 30%;
+}
+.value-40 {
+	width: 40%;
+}
+.value-50 {
+	width: 50%;
+}
+.value-60 {
+	width: 60%;
+}
+.value-70 {
+	width: 70%;
+}
+.value-80 {
+	width: 80%;
+}
+.value-90 {
+	width: 90%;
+}
+.value-100 {
+	width: 100%;
+}
+
+
+/* Portfolio Section
+********************************************************************* */
+#portfolio {
+	padding: 100px 0 100px 0;
+  
+}
+.image {
+	background-color: #5a5a5a;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	transition: .5s;
+}
+
+/* Contact Section
+********************************************************************* */
+#contact {
+	padding: 100px 0 100px 0;
+}
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+	height: 38px;
+	padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+	background-color: #F5F5F5;
+	border: none;
+	box-shadow: none;
+	box-sizing: border-box;
+	border-radius: 0;
+	outline: none;
+}
+textarea {
+	min-height: 250px;
+}
+input[type="submit"] {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: #fff;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background: #5fc3e4;
+	border-radius: 0px;
+	border: 0;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+input[type="submit"]:hover {
+	background: #e55d87;
+	text-decoration: none;
+}
+
+
+
+/* Footer Section
+********************************************************************* */
+footer {
+	min-height: 120px;
+	padding: 40px 0 40px 0;
+		background: -moz-linear-gradient(-20deg, #6fe55d 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #6fe55d 0%, #5fc3e4 100%);
+	background: linear-gradient(180deg, #6fe55d0%, #5fc3e4 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+	box-sizing: border-box;
+}
+footer p {
+	color: #FFFFFF;
+	margin: 20px 0 0 0;
+  
+}
+.socialIcons {
+	font-size: 34px;
+  color: rgba(25, 255, 255, 0.7);
+}
  
+
+
+
+
+/* Spacing
+********************************************************************* */
+button, .button {
+	margin-bottom: 1rem;
+}
+input, textarea, select, fieldset {
+	margin-bottom: 1.5rem;
+}
+pre, blockquote, dl, figure, table, p, ul, ol, form {
+	margin-bottom: 2.5rem;
+}
+/* Utilities
+********************************************************************* */
+.u-full-width {
+	width: 100%;
+	box-sizing: border-box;
+}
+.u-max-full-width {
+	max-width: 100%;
+	box-sizing: border-box;
+}
+.u-pull-right {
+	float: right;
+
+}
+/* Clearing
+********************************************************************* */
+.container:after, .row:after, .u-cf {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* Misc
+********************************************************************* */
+
+.icon {
+	padding-right: 10px;
+	color: #e55d87;
+}
+.block {
+	width: 200px;
+	height: 2px;
+		background: -moz-linear-gradient(-20deg, #6fe55d 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #6fe55d 0%, #5fc3e4 100%);
+	background: linear-gradient(180deg, #6fe55d0%, #5fc3e4 100%);
+	margin-bottom: 50px;
+}
+
+/* Prices
+******************************************************************** */
+.panels
+{
+  margin: 2rem 0;
+}
+
+.panels > .cc
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel
+{
+  width: 30%;
+  background-color: #F5F5F5;
+  border-bottom: 3px solid #ddd;
+  border-radius: 10px;
+  line-height: 1.625;
+}
+
+.panel-content
+{
+  padding: 1.5em;
+}
+
+.panel h4
+{
+  font-weight: 800;
+}
+
+.panel .panel-thumbnail
+{
+  min-height: 300px;
+  background-size: cover;
+  background-position: center middle;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.panel:first-child .panel-thumbnail
+{
+  background-image: url(http://www.backgroundsy.com/file/large/bronze-background.jpg);
+}
+
+.panel:nth-child(2) .panel-thumbnail
+{
+  background-image: url(http://www.backgroundsy.com/file/large/silver-background.jpg);
+}
+
+.panel:last-child .panel-thumbnail
+{
+  background-image: url(http://www.backgroundsy.com/file/large/gold-background.jpg);
+}
+
+.ox {
+
+  background: red;
+  margin-top: 50px;
+  margin-bottom: -90px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 10px 10px 30px 5px;
+  padding-bottom: -30px;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  opacity: 0.8;
+  border-radius: 29px;
+   padding: 20px; 
+    width: 300px;
+    height: 230px; 
+}
+
+
+
+.ox:hover {
+  background-color:#42f474 ;
+  cursor: auto;
+}
+
+.img{
+  
+  border-radius: 25px;
+    background: ;
+    padding: 20px; 
+    width: 200px;
+    height: 190px; 
+}
+/*************************************/
+
+
 </style>
- </head>
- 
-  <body>
-   <nav>
-    <a href="index.html">Home</a> / <a href="About.html">About</a>  / <a href="work.html">Work</a> / <a href="Contact.html">Contact</a> 
-    / <a href="Prices.html">Prices</a> </nav>
-   
-   
-   <section id="video">
+	
+</head>
 
-    <img src='http://quentincoffy.me/logo.png'> 
-  <video class="background-video hero-bg-video is-playing" loop="loop" autoplay="autoplay" muted="muted" poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/ristretto.jpg" id="bgvid">
-						<source src="https://d3k5xyayaartr5.cloudfront.net/ristretto/ristretto.mp4" type="video/mp4">
-						<source src="https://d3k5xyayaartr5.cloudfront.net/ristretto/ristretto.webm" type="video/webm">
-						<source src="https://d3k5xyayaartr5.cloudfront.net/ristretto/ristretto.ogv" type="video/ogg">
-  </video>
+<body>
+<h2><div class="ox" class="wow bounce">  
+<ul>
+<li><a class="smoothscroll" href="#header">Home</a></li><br>
+<li><a class="smoothscroll" href="#about">About</a></li><br>
+<li><a class="smoothscroll" href="#skills">Skills</a></li><br>
+<li><a class="smoothscroll" href="#portfolio">Work</a></li><br>
+<li><a class="smoothscroll" href="#contact">Contact/<br>Prices</a></li><br>
+</div> 
+</h2>
 
- <h1> Quentin Coffy,"The Graphic Designer" </h1>
-   
-   <h2>The best ever at art, ever!</h2>
-
-  </section>
+    
+</header>
   
-<footer>
-<a href="https://www.instagram.com/coffyquentin/" target="_blank"><img src="insta.png" style="width:60px;height:60px;"></a>
 
-<a href="https://www.facebook.com/quentin.coffy.9" target="_blank"><img src="face.png" style="width:60px;height:60px;"></a>
+<!-- About Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+<section id="about">
+<div class="container">
+<div class="row">
 
-<a href="https://www.linkedin.com/in/quentin-coffy-58b8a2125" target="_blank"><img src="linkeldn.png" style="width:60px;height:60px;"></a>
-<p>
- &copy; Quentin Coffy
+<h1>About</h1>
+<div class="block"></div>
+  
+<p align=left ><h5> Hi there glad for you to stop by my website.<br>
+I hope you enjoy what you see and I appreciate all
+of your views and support.<br>
+For many who do not know me personally my name is Quentin Coffy.<br>
+I’m a 25-year-old graphic designer born and raised in Miami, Florida,
+with a life <br>filled with creativity and art.<br>
+I have been drawing since a very young age and despite disadvantages,<br> 
+I have been able to preserver to become the individual I become.<br>
+I still have much to learn, and more work to get done but with the support of<br> 
+my friends and family there’s only little standing in my way.<br></h5>
 </p>
+</div>
+    
+</div>
+</section>
 
-<a href="http://www.w3.org/html/logo/">
-<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-multimedia.png" width="197" height="64" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Multimedia" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Multimedia">
-</a>
- </footer>
-</body>
+
+<!-- Skills Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+<section id="skills">
+<div class="container">
+    
+<h1>Skills</h1>
+<div class="block"></div>
+<div class="row">
+<div class="one-third column">
+
+<h3> Photoshop</h3>
+<p>Exp. 5yrs</p>
+</div>
+      
+<div class="one-third column">
+
+<h3>Illustrator</h3>
+<p>Exp. 3yrs</p>
+</div>
+     
+<div class="one-third column">
+  
+<h3>Indesign</h3>
+<p>Exp. 3months</p>
+</div>
+</div>
+  
+<div class="row">
+<div class="eight columns">
+<div class="progressBar">
+<h4>Drawing/Painting</h4>
+<div class="progressBarContainer">
+<div class="progressBarValue value-80"></div>
+</div>
+</div>
+        
+<div class="progressBar">
+<h4>Typography</h4>
+<div class="progressBarContainer">
+<div class="progressBarValue value-80"></div>
+</div>
+</div>
+        
+<div class="progressBar">
+<h4>Wordpress</h4>
+<div class="progressBarContainer">
+<div class="progressBarValue value-30"></div>
+</div>
+</div>
+        
+<div class="progressBar">
+<h4>Creative/Thinking</h4>
+<div class="progressBarContainer">
+<div class="progressBarValue value-70"></div>
+</div>
+</div>
+        
+<section id="resume">
+<iframe  src="resume-coffy.pdf"></iframe> 
+<section>
+
+<img style="-webkit-user-select: none" src="https://pcache-pv-us1.badoocdn.com/p542/40042/8/6/5/1280993258/d290/t1398047669/c_kXZCbZtpbebsc.bevFoGHbXufcKz6LUqmWvyjbnbNDE/290228/dfs_180x180/sz___size__.jpg" class="img">
+</section>
+</div>
+
+<div class="four columns">
+<p>"In life you need to work to deserve."  
+  <br>"Happiness without results is powerless, results without happiness is meaningless. True winners's find the joy in growing." </p>
+</div>
+</div>
+</div>
+</section>
+
+
+  <!-- Portfolio Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+<section id="portfolio">
+<div class="container">
+
+<h1>Work</h1>
+<div class="block"></div>
+    
+<img style="user-select: none; cursor: zoom-in;" src="https://raw.githubusercontent.com/qcoffy/qcoffy.github.io/master/illustration.jpg" width="552" height="773">
+
+<img style="user-select: none; cursor: zoom-in;" src="https://raw.githubusercontent.com/qcoffy/qcoffy.github.io/master/QUUENTIN%20AD%20ILL.jpg" width="552" height="773">
+    
+<img style="user-select: none; cursor: zoom-in;" src="https://raw.githubusercontent.com/qcoffy/qcoffy.github.io/master/web%20brochure%20draft.jpg" width="556" height="974">
+</div>
+</div>
+</section>
+
+
+<!-- Contact Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+<section id="contact">
+<div class="container">
+ 
+<h1>Contact</h1>
+<div class="block"></div>
+
+<form>
+<div class="row">
+<div class="six columns">
+<label for="exampleRecipientInput">Name</label>
+<input class="u-full-width" type="text">
+</div>
+
+<div class="six columns">
+<label for="exampleEmailInput">Email</label>
+<input class="u-full-width" type="email">
+</div>
+</div>
+      
+<div class="row">
+<label for="exampleMessage">Message</label>
+<textarea class="u-full-width"></textarea>
+<input class="button-primary" type="submit" value="Submit">
+</div>
+</form>
+    
+<h3>Locate</h3>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d57480.36285450301!2d-80.2193396457046!3d25.786325096051527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x88d9b6a7a2fd7ed3%3A0x6b04c9fb83a8090c!2sMiami+International+University+of+Art+%26+Design%2C+1501+Biscayne+Blvd+%23100%2C+Miami%2C+FL+33132!3m2!1d25.7899294!2d-80.1884999!5e0!3m2!1sen!2sus!4v1474308068655" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+</section>
+
+
+<!-- Portfolio Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+<section id="portfolio">
+<div class="container">
+<h1>Prices</h1>
+<div class="block"></div>
+<div class="row">
+
+<section class="panels ww">
+<div class="cc">
+      
+<section class="panel">
+<div class="panel-thumbnail"></div>
+        
+<aside class="panel-content">
+<h4>Bronze Features:</h4>
+<p>
+
+<div class="w3-row-padding" style="margin:0 -16px">
+<div class="w3-half w3-margin-bottom">
+<ul class="w3-ul w3-center w3-card-2 w3-hover-shadow">
+<li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+<li class="w3-padding-16">Web Design</li>
+<li class="w3-padding-16">Photography</li>
+<li class="w3-padding-16">5GB Storage</li>
+<li class="w3-padding-16">Mail Support</li>
+<li class="w3-padding-16">
+            
+<h2>$ 10</h2>
+<span class="w3-opacity">per month</span>
+</li>
+</p>
+</aside>
+</section>
+      
+<section class="panel">
+<div class="panel-thumbnail"></div>
+<aside class="panel-content">
+          
+<h4>Silver Features:</h4>
+<p>
+<div class="w3-row-padding" style="margin:0 -16px">
+<div class="w3-half w3-margin-bottom">
+<ul class="w3-ul w3-center w3-card-2 w3-hover-shadow">
+<li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+<li class="w3-padding-16">Web Design</li>
+<li class="w3-padding-16">Photography</li>
+<li class="w3-padding-16">20GB Storage</li>
+<li class="w3-padding-16">Mail Support</li>
+<li class="w3-padding-16">
+ 
+<h2>$ 100</h2>
+<span class="w3-opacity">per month</span>
+</li>
+</p>
+</aside>
+</section>
+  
+<section class="panel">
+<div class="panel-thumbnail"></div>
+<aside class="panel-content">
+  
+<h4>Gold Features:</h4>
+<p>
+<div class="w3-row-padding" style="margin:0 -16px">
+<div class="w3-half w3-margin-bottom">
+<ul class="w3-ul w3-center w3-card-2 w3-hover-shadow">
+<li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+<li class="w3-padding-16">Web Design</li>
+<li class="w3-padding-16">Photography</li>
+<li class="w3-padding-16">70GB Storage</li>
+<li class="w3-padding-16">Mail Support</li>
+<li class="w3-padding-16">
+            
+<h2>$ 500</h2>
+<span class="w3-opacity">per month</span>
+</li>
+</p>
+</aside>
+</section>
+</div>
+</div>
+</section>
+
+ 
+<!-- Footer Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+<footer>
+<div class="container">
+<div class="nine columns">
+<p> &copy; Quentin Coffy.</p>
+</div>
+    
+<div class="three columns"> <span a href="https://www.facebook.com/quentin.coffy.9" target="_blank"class="typcn typcn-social-facebook-circular socialIcons"></a></span> <span a href="https://www.instagram.com/coffyquentin/" target="_blank"class="typcn typcn-social-instagram-circular socialIcons"></a></span><span a href="https://www.linkedin.com/in/quentin-coffy-58b8a2125" target="_blank" class="typcn typcn-social-linkedin-circular socialIcons"></a></span> </div>
+</div>
+</footer>
+
 </html>
